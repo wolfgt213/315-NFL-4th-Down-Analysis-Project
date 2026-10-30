@@ -20,7 +20,7 @@
 
 **Source:** [https://nflverse.nflverse.com/](https://github.com/nflverse/nflverse/)
 
-**Data Format:** Packages
+**Data Format:** CVS File
 
 **Description:** Large set of packages of data from the National Football League that include play-by-play data back to 1999, season simulations, 4th down analysis, 
 
