@@ -30,7 +30,7 @@
 
 ### Question 1: 
 - **Question:** How does the number of yards needed for a fourth down conversion affect the probability of having a successful fourth down conversion?
-- **Expected Answer:** We will plot distance needed for conversion on the x-axis (units of yards) against successful fourth down conversion probability on the y-axis (as a percentage). We will use data fitting to analyze this relationship. We generally expect the conversion success rate to increase as yards needed to convert decreases. We will calculate 95% confidence intervals for successful fourth down conversions at different distances to convert. Maybe 10: (0-1 yards, 1-4 yards, 4-9 yards, 9-16 yards, 16-25 yards, 25-36 yards, 36-49 yards, 49-64 yards, 64-81 yards, 81-100 yards)
+- **Expected Answer:** We will plot distance needed for conversion on the x-axis (units of yards) against successful fourth down conversion probability on the y-axis (as a percentage). We will use data fitting to analyze this relationship. We generally expect the conversion success rate to increase as yards needed to convert decreases. We will calculate 95% confidence intervals for successful fourth down conversions at different distances to convert. Maybe 5: ("4th and Inches" (<1 yard), "4th and Short" (1-<3 yards), "4th and Medium" (3-<7 yards), "4th and Long" (7-<15 yards), and "4th and Forever" (>15 yards).
 - **Potential Benefit:** This can help us determine that if you are closer to the yard to gain, that your chances of obtaining a new set of downs increases.
 
 ### Question 2: 
@@ -50,22 +50,25 @@
 
 ### Question 1: How does the number of yards needed for a fourth down conversion affect the probability of having a successful fourth down conversion?
 **Method:**
-[Explain the steps and calculations needed to answer the question.]
-We will use the NFLverse 2025-2026 season play-by-play dataset to analyze the applicable columns including yards needed to convert (ydstogo), successful fourth down conversions (fourth_down_converted), and failed fourth down conversions (fourth_down_failed). Then, we will calculate 95% confidence intervals at various ranges. After inputting the data, we can use equations to find the appropriate data fitting method.
+We will use the NFLverse 2025-2026 season play-by-play dataset to analyze the applicable columns including yards needed to convert (ydstogo), successful fourth down conversions (fourth_down_converted), and failed fourth down conversions (fourth_down_failed). Then, we will calculate 95% confidence intervals at the various ranges stated above. After inputting the data, we can use equations to find the appropriate data fitting method.
 
 **Metrics:**
-[List the numerical measurements or statistics you will calculate.]
-Number of 
-
+- Number of fourth down attempts for each chosen distance interval
+- Number of successful fourth down attempts for each chosen distance interval
+- Percentage of conversion success rate for each chosen distance interval
+- 95% confidence interval for each conversion success rate
 
 **Python Tools and Packages:**
-[List the packages and functions you plan to use.]
+- Pandas for data analysis
+- NumPy for calculations
+- SciPy for statistics
+- Matplotlib for plotting
 
 **Visualization:**
-[Describe the plot or chart that will display the results.]
+We will plot this data on a graph. The x-axis will be yards needed for conversion (yards). The y-axis will be conversion success rate (%). Error bars will indicate the 95% intervals of our chosen distance intervals. It will include an appropriate trendline.
 
 **Interpretation:**
-[Explain how the results will help answer the question.]
+We expect conversion success rates to decrease as yard needed to convert increase. The confidence intervals will determine the precision of our findings. The trendline will show us the overall relationship.
 
 ### Question 2: How does field position affect the probability of having a successful fourth down conversion?
 **Method:**
