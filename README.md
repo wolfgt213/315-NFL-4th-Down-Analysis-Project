@@ -125,7 +125,7 @@ questions. To be completed in a later phase.]
 incomplete task.]
 
 ## 11. References and Source Files
-- Dataset source and URL: NFLverse https://nflverse.nflverse.com/ 
+- Dataset source and URL: NFLverse [https://nflverse.nflverse.com/](https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv) 
 - [Research papers, articles, or documentation]
 - [Python library documentation]
 - [Other relevant sources]
