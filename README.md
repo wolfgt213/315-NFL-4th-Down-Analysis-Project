@@ -51,9 +51,12 @@
 ### Question 1: How does the number of yards needed for a fourth down conversion affect the probability of having a successful fourth down conversion?
 **Method:**
 [Explain the steps and calculations needed to answer the question.]
+We will use the NFLverse 2025-2026 season play-by-play dataset to analyze the applicable columns including yards needed to convert (ydstogo), successful fourth down conversions (fourth_down_converted), and failed fourth down conversions (fourth_down_failed). Then, we will calculate 95% confidence intervals at various ranges. After inputting the data, we can use equations to find the appropriate data fitting method.
 
 **Metrics:**
 [List the numerical measurements or statistics you will calculate.]
+Number of 
+
 
 **Python Tools and Packages:**
 [List the packages and functions you plan to use.]
