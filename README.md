@@ -31,17 +31,17 @@
 ### Question 1: 
 - **Question:** How does the number of yards needed for a fourth down conversion affect the probability of having a successful fourth down conversion?
 - **Expected Answer:** We will plot distance needed for conversion on the x-axis (units of yards) against successful fourth down conversion probability on the y-axis (as a percentage). We will use data fitting to analyze this relationship. We generally expect the conversion success rate to increase as yards needed to convert decreases. We will calculate 95% confidence intervals for successful fourth down conversions at different distances to convert. Maybe 10: (0-1 yards, 1-4 yards, 4-9 yards, 9-16 yards, 16-25 yards, 25-36 yards, 36-49 yards, 49-64 yards, 64-81 yards, 81-100 yards)
-- **Potential Benefit:**
+- **Potential Benefit:** This can help us determine that if you are closer to the yard to gain, that your chances of obtaining a new set of downs increases.
 
 ### Question 2: 
 - **Question:** How does field position affect the probability of having a successful fourth down conversion?
 - **Expected Answer:** We will plot distance to the goal line on the x-axis (units of yards) against successful fourth down conversion probability on the y-axis (as a percentage). We will use data fitting to analyze this relationship. We hypothesize that the conversion success rate increases as distance to the goal line increases because the defense has more open field to defend. We will calculate 95% confidence intervals for successful fourth down conversions at different distance to the goal line. Maybe 10: (0-1 yards, 1-4 yards, 4-9 yards, 9-16 yards, 16-25 yards, 25-36 yards, 36-49 yards, 49-64 yards, 64-81 yards, 81-100 yards)
-- **Potential Benefit:**
+- **Potential Benefit:** This will help us determine if the position on the field truly influences the probability of a 4th down conversion due to the remainder of the field to go.
 
 ### Question 3: 
 - **Question:** How does home field advantage affect the probability of having a successful fourth down conversion?
 - **Expected Answer:** We will make a bar graph with two bars on the x-axis. One bar will represent home teams, while the other bar will represent away teams. The y-axis will be successful fourth down conversion rate (as a percentage). We expect the successful fourth down conversion rate to be greater for the teams with the home field advantage. Additionally, we will use a chi-squared test to determine if the home field advantage for fourth down conversion rate is statistically significant.
-- **Potential Benefit:**
+- **Potential Benefit:** This will help us determine if you're the home or away team influences the probability of a 4th down conversion.
 
 ## 5. Introduction and Context
 
