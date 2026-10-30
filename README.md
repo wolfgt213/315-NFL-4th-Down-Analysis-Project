@@ -1,7 +1,7 @@
 # 315-NFL-4th-Down-Analysis-Project
 
 ## 1. Team Information
-**Team Name:**
+**Team Name: NFL Data Analysts** 
 
 **Contributors:**
 - Grant Wolf
