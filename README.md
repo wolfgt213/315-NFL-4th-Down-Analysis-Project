@@ -72,19 +72,25 @@ We expect conversion success rates to decrease as yard needed to convert increas
 
 ### Question 2: How does field position affect the probability of having a successful fourth down conversion?
 **Method:**
-[Describe your analysis procedure.]
+We will use the NFLverse 2025-2026 season play-by-play dataset to analyze the applicable columns including distance from the goal line (yardline_100), successful fourth down conversions (fourth_down_converted), and failed fourth down conversions (fourth_down_failed). Then we will calculate 95% confidence intervals at the various locations along the field. After inputting the data, we can use equations to find the appropriate data fitting method.
 
 **Metrics:**
-[List the measurements or statistics.]
+- Number of fourth downs attempted for each distance interval along the length of the field
+- Number of successful fourth down attempts for each chosen distance interval
+- Percentage of conversion success rate for each chosen distance interval
+- 95% confidence interval for each conversion success rate
 
 **Python Tools and Packages:**
-[List packages and functions.]
+- Pandas for data analysis
+- NumPy for calculations
+- SciPy for statistics
+- Matplotlib for plotting
 
 **Visualization:**
-[Describe the appropriate plots.]
+We will plot this data on a graph. The x-axis will be yards from the goal line. The y-axis will be conversion success rate (%). Error bars will indicate the 95% intervals of our chosen distance intervals. It will include an appropriate trendline.
 
 **Interpretation:**
-[Explain what the results could tell you.]
+We expect that the further from the goal line, the higher the chance of 
 
 ### Question 3: How does home field advantage affect the probability of having a successful fourth down conversion?
 **Method:**
@@ -94,7 +100,10 @@ We expect conversion success rates to decrease as yard needed to convert increas
 [List the measurements or statistics.]
 
 **Python Tools and Packages:**
-[List packages and functions.]
+- Pandas for data analysis
+- NumPy for calculations
+- SciPy for statistics
+- Matplotlib for plotting
 
 **Visualization:**
 [Describe the appropriate plots.]
