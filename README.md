@@ -90,14 +90,17 @@ We will use the NFLverse 2025-2026 season play-by-play dataset to analyze the ap
 We will plot this data on a graph. The x-axis will be yards from the goal line. The y-axis will be conversion success rate (%). Error bars will indicate the 95% intervals of our chosen distance intervals. It will include an appropriate trendline.
 
 **Interpretation:**
-We expect that the further from the goal line, the higher the chance of 
+We expect that the further from the goal line, the higher the chance of a conversion due to the expanded area that the defense needs to cover, while the closer to the goal line, the harder it is to accomplish a conversion.
 
 ### Question 3: How does home field advantage affect the probability of having a successful fourth down conversion?
 **Method:**
-[Describe your analysis procedure.]
+We will use the NFLverse 2025-2026 season play-by-play dataset to analyze the application columns including Possession (posteam), who the home team was (home_team), successful fourth down conversions (fourth_down_converted), and failed fourth down conversions (fourth_down_failed). We will then perform a Chi squared test to determine if the home field advantage for fourth down conversion rate is statistically significant,
 
 **Metrics:**
-[List the measurements or statistics.]
+- Who has possession of the ball
+- Who the home team is
+- Number of successful 4th down conversions
+- Chi squared test to see if statistically significant 
 
 **Python Tools and Packages:**
 - Pandas for data analysis
@@ -106,10 +109,10 @@ We expect that the further from the goal line, the higher the chance of
 - Matplotlib for plotting
 
 **Visualization:**
-[Describe the appropriate plots.]
+A bar graph with two bars along the x-axis. One will represent the home teams, while the other represents the away teams. The y-axis will be successful fourth down conversion rate (as a percentage).
 
 **Interpretation:**
-[Explain what the results could tell you.]
+We expect that the successful fourth down conversion rate will be greater for the home team rather than the away team.
 
 ## 7. Project Structure
 - `README.md` — Project description and documentation
